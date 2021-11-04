@@ -1,0 +1,80 @@
+<STYLE>
+BODY{
+    border:4px solid black;
+    padding:5px 5px 5px 5px;
+    width:300px;
+    box-sizing:border-box;
+}
+H1{
+    text-align:center;
+    font-weight: bold;
+}
+#MAIN{
+    color : rgb(24, 3, 44);
+    font-style : calibri;
+}
+.domain{
+    background:url("pattern-background.jpg");
+}
+.style{
+    color:blue;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p,ul{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.anim {
+    position:relative;
+    color:cornsilk;
+    animation-name:colorful;
+    animation-duration:5s;
+    font-size: 28px;
+    font-style: Times New Roman;
+    font-weight: bold;
+    border:4px solid rgb(111, 0, 255);
+    background:url("pattern-background.jpg");
+    animation-iteration-count: infinite;
+}
+@keyframes colorful {
+    0%{
+        top:0px;
+        color:rgb(226, 43, 165);
+    }
+    25%{
+        top:15px;
+        color:rgb(226, 43, 43);
+    }
+    50%{
+        top:25px;
+        color:rgb(98, 43, 226);
+    }
+    75%{
+        top:15px;
+        color:rgb(43, 46, 226);
+    }
+    100%{
+        top:0px;
+        color:white;
+    }
+
+}
+img {
+    border-radius: 15%;
+    position: realtive;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    p{
+        width:80%
+    }
+  }
+  
+  @media (max-width: 767px) {
+    section {
+      width: 100%;
+    }
+  }
+</STYLE>
